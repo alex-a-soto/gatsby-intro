@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 
 const ImageBackground = styled('section')`
-  background-image: url(/images/osmon-rana-boston.jpg);
+  background-image: url('../images/boston.jpg');
   background-position: top 20% center;
   background-size: cover;
   height: 50vh;

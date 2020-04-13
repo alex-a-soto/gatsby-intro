@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { css } from '@emotion/core';
+import React, { useState } from "react";
+import { css } from "@emotion/core";
 
 const Wave = () => {
   const [waves, setWaves] = useState(0);
-  const label = `⊂(◉‿◉)つ ${waves} ${waves === 1 ? 'wave' : 'waves'}`;
+  const label = `¯\_(ツ)_/¯ ${waves} ${waves === 1 ? "wave" : "waves"}`;
 
   return (
     <button

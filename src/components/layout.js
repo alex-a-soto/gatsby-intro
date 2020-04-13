@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
             margin: 0;
           }
 
+          /* More info: https://bit.ly/2PsCnzk */
           * + * {
             margin-top: 1rem;
           }
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
             font-size: 18px;
             line-height: 1.4;
 
+            /* remove margin for the main div that Gatsby mounts into */
             > div {
               margin-top: 0;
             }
